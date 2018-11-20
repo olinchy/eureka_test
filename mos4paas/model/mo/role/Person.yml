@@ -1,0 +1,22 @@
+className: Person
+tid: 6
+attributes:
+  - name: name
+    attrId: 0
+    type: String
+    maxLength: 20
+    mutable: false
+  - name: level
+    attrId: 1
+    type: LevelEnum
+    default: beginner
+    mutable: true
+reference:
+  - name: role
+    type: Role
+    isMulti: true
+    under: DoNothingPolicy
+  - name: team
+    type: Team
+    isMulti: false
+    under: LiteDependencyPolicy

@@ -1,0 +1,6 @@
+name: LevelEnum
+type: BYTE
+enum:
+    beginner: 4
+    skillful: 5
+    expert: 6

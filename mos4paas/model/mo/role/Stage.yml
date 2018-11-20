@@ -1,0 +1,13 @@
+className: Stage
+tid: 2
+attributes:
+  - name: name
+    attrId: 1
+    type: String
+    mutable: true
+    maxLength: 200
+children:
+   - name : Duty
+     id : 1
+     count : 100
+     autoCreate: false

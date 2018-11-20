@@ -1,0 +1,19 @@
+className: Root
+tid: 0
+children:
+   - name : Role
+     id : 1
+     count : 100
+     autoCreate: false
+   - name : Person
+     id : 2
+     count : 100000
+     autoCreate: false
+   - name : Department
+     id : 3
+     count : 200
+     autoCreate: false
+   - name : CompetentCapability
+     id : 4
+     count : 1000000
+     autoCreate: false

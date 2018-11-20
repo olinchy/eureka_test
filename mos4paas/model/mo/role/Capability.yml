@@ -1,0 +1,13 @@
+className: Capability
+tid: 4
+attributes:
+  - name: name
+    attrId: 1
+    type: String
+    mutable: true
+    maxLength: 200
+children:
+   - name : Feature
+     id : 1
+     count : 100
+     autoCreate: false

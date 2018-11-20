@@ -1,0 +1,11 @@
+className: CompetentCapability
+tid: 9
+reference:
+  - name: person
+    type: Person
+    isMulti: false
+    under: LiteDependencyPolicy
+  - name: feature
+    type: Feature
+    isMulti: false
+    under: LiteDependencyPolicy

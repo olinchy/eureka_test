@@ -1,0 +1,23 @@
+className: Feature
+tid: 5
+attributes:
+  - name: description
+    attrId: 1
+    type: String
+    maxLength: 200
+    mutable: true
+  - name: improvement
+    attrId: 2
+    type: String
+    maxLength: 200
+    mutable: true
+  - name: level
+    attrId: 3
+    type: LevelEnum
+    default: beginner
+    mutable: true
+  - name: requiredExperience
+    attrId: 4
+    type: String
+    maxLength: 200
+    mutable: true
